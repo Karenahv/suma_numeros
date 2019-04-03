@@ -1,8 +1,8 @@
 
    <h1> Mi cuenta es : <%= "#{@count}" %></h1>
 
-   <form action="/nuevo/objeto" method="get">
+   <form action="/" method="get">
      <label for="cuenta"><input type="submit" id="cuenta" name="cuenta">
         <input type="hidden" id="cuenta" name="cuenta" value= <%= @count.to_i + 1 %>>
-     
+
    </form>
